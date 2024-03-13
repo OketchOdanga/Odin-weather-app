@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>WEATHER APP</h1>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <form>
+                <div class="user-input">
+                    <label for="city">Enter your current location(city)</label>
+                    <input type="text" name="city" id="city" placeholder="eg. Nairobi">
+                </div>
+                <div>
+                    <button type="submit" id="submit-btn" class="ssubmit-btn">Submit</button>
+                    <button type="reset" id="reset-btn" class="reset-btn">Cancel</button>
+                </div>
+            </form>
+        </section>
+        <section class="container" id="container">
+            <div id="currentLocation">
+            </div>
+            <div id="currentCondition">
+            </div>
+            <div id="temperature">
+            </div>
+            <div id="humidity">
+            </div>
+            <div id="windCondition">
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <p>powered by <a href="#">Weather Api</a></p>
+    </footer>
+</body>
+</html>
